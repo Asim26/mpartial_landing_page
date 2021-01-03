@@ -287,7 +287,7 @@ function Main() {
 
           <div className="row">
             <div className="col">
-              <h1 className="section_title_text"> Contact Us </h1>
+              <h1 className="section_title_text" style={{backgroundImage: 'url(images/background.png)'}}> Contact Us </h1>
             </div>
           </div>
 
@@ -337,14 +337,6 @@ function Main() {
       </section>
 
       {/* Contact US Section End */}
-
-
-      
-
-    
-
-
- 
 
 
 

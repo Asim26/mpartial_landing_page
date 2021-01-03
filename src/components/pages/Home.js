@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoSection from '../VideoSection';
 import Main from '../Main';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
     <div>
         <VideoSection/>
         <Main/>
+        <Footer/>
     </div>
      
     </>
