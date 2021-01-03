@@ -259,13 +259,84 @@ function Main() {
           </div>
         </div>
          
-   
+
+
+        
+
+
+        <div className="row">
+          <div className="col">
+
+          </div>
+        </div>
+
+
 
         </div>
       </section>
 
       {/* Example Deliverables Section End */}
 
+
+
+
+      {/* Contact US Section Start */}
+
+      <section id="Contact-US">
+        <div className="container">
+
+          <div className="row">
+            <div className="col">
+              <h1 className="section_title_text"> Contact Us </h1>
+            </div>
+          </div>
+
+          <div className="form-holder">
+            <form>
+
+              <div className="row">
+
+                <div className="col-md-6 col-sm-12 ">
+
+                <div className="form-group nogroup">
+                    <input type="text" name="Name" required id="inputField1" className="input-area"/>
+                    <label for="inputField1" className="floating_label"> Your Name </label>
+                  </div>
+
+                  <div className="form-group nogroup">
+                    <input type="text" name="Email" required id="inputField2" className="input-area"/>
+                    <label for="inputField2" className="floating_label"> Email </label>
+                  </div>
+
+                  <div className="form-group nogroup">
+                    <input type="text" name="Cell" required id="inputField3" className="input-area"  />
+                    <label for="inputField3" className="floating_label"> Cell </label>
+                  </div>
+
+                </div>
+
+                <div className="col-md-6 col-sm-12 ">
+
+                  <div className="form-group nogroup">
+                    <textarea name="Message" required id="text_area" className="input-area"  />
+                    <label for="text_area" className="floating_label">  Write your message...  </label>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div className="try_now_btn">
+                <button type="submit" className="submit_btn"> Submit </button>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Contact US Section End */}
 
 
       

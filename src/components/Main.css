@@ -408,3 +408,141 @@ font-weight: 400;
 
 
 /* ------------------------------------------------------ */
+
+/* ------------------------------------------------------ */
+
+#Contact-US {
+  background-color: rgb(255, 255, 255);
+}
+
+#Contact-US h1 {
+  text-align: center;
+  background-position: 50%;
+  padding: 12%;
+}
+
+#Contact-US .section_title_text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  /* background-image: url("/images/background.png"); */
+}
+
+#Contact-US .form-holder {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 1.5rem!important;
+  position: relative;
+}
+
+.form-holder input {
+  margin-bottom: 24px;
+}
+
+.form-holder input, .form-holder textarea {
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid rgba(10,81,105,.5);
+  border-radius: 10px;
+  padding: 12px 15px;
+  outline: none;
+}
+
+.form-holder textarea {
+  height: 236px;
+  resize: none;
+}
+
+.form-group .floating_label {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: all .3s;
+  font-weight: 600;
+  color: rgba(73,80,87,.8)!important;
+}
+
+.form-group .input-area:valid + .floating_label {
+  top: -8px;
+  padding: 0 5px;
+  font-size: 14px;
+  color: rgba(73,80,87,.8)!important;
+}
+
+.form-group .input-area:focus + .floating_label {
+  top: -10px;
+  padding: 0 3px;
+  font-size: 13px;
+  color: rgba(73,80,87,.8)!important;
+}
+
+#Contact-US .try_now_btn {
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+#Contact-US .try_now_btn .submit_btn {
+  height: 40px;
+  width: 159px;
+}
+
+#Contact-US button:enabled {
+  background: #3ac280 0 0 no-repeat padding-box;
+  border-color: #3ac280;
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #fff;
+  opacity: 1;
+  min-width: 159px;
+}
+
+#Contact-US .submit_btn:disabled{
+  border-color: rgb(197,197,197);
+  background: rgb(197,197,197);
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #fff;
+  opacity: 1;
+  min-width: 159px;
+  cursor: not-allowed;
+}
+
+#Contact-US .submit_btn:hover {
+  color: #000;
+}
+
+#Contact-US button:disabled:hover {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  #Contact-US .section_title_text {
+    padding: 25% 7%;
+    text-align: center;
+    background-position: 50%;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 5% 0;
+  }
+}
