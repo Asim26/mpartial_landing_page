@@ -192,9 +192,24 @@ function Main() {
 
         <div section id="carosel">
           <div class="row">
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
+              <h3 className="heading5">Immaculate. Impartial. [ESX]</h3>
+            </div>
+            <div class="col-lg-4">
+
+            </div>          
+          </div>
+
+          <br />
+          <br />
+
+          <div class="row">
         
             <div class="col-lg-4">
-              Asim
+              
             </div>
         
             <div class="col-lg-4">
@@ -238,7 +253,7 @@ function Main() {
             </div>
 
             <div class="col-lg-4">
-              Asim
+              
             </div>
 
           </div>
