@@ -231,3 +231,117 @@
 
 
 
+
+
+
+
+/* -------------------------------------------------- */
+
+#Fee-Structure {
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(10, 81, 105);
+  padding-bottom: 20px;
+}
+
+#Fee-Structure h1 {
+  text-align: center;
+  background-position: 50%;
+  padding: 12%;
+}
+
+#Fee-Structure .section_title_text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  /* background-image: url("/images/background.png"); */
+}
+
+
+.section_title_description {
+	font-family: 'Raleway', sans-serif;
+  	display: block;
+  	letter-spacing: -.19px;
+  	opacity: 1;
+  	padding-top: 20px;
+}
+
+css-ulgnwk-WaterFall {
+  max-width: 620px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(10, 81, 105);
+}
+
+.section_title_description {
+font-family: 'Raleway', sans-serif;
+  display: block;
+  letter-spacing: -.19px;
+  opacity: 1;
+  padding-top: 20px;
+}
+
+.partial_fee_btn {
+width: 195px;
+height: 108px;
+margin: 30px auto 15px;
+padding: 25px 0;
+text-align: center;
+background: #0a5169;
+border-radius: 10px;
+position: relative;
+}
+
+.partial_fee_btn label {
+font-size: 28px;
+margin: 0;
+font-weight: 400;
+display: block;
+color: #fff;
+line-height: 28px;
+}
+
+.partial_fee_btn span {
+font-size: 12px;
+color: #fff;
+font-weight: 400;
+font-family: 'Raleway', sans-serif;
+}
+
+.partial_fee_btn .info_popup {
+position: absolute;
+right: 6%;
+top: 5%;
+font-size: 15px;
+color: #fff;
+font-style: normal;
+border-radius: 50%;
+border: 1px solid #fff;
+width: 20px;
+height: 20px;
+line-height: 19px;
+cursor: pointer;
+}
+
+.waterfall_info_text {
+text-align: center;
+color: rgb(10, 81, 105);
+font-weight: 400;
+}
+
+
+
+
+
+/*----------------------------*/
+
+

@@ -111,6 +111,59 @@ function Main() {
 
 
 
+
+
+
+
+
+
+
+
+     {/* Fee Structure Section Start */}
+
+     <section id="Fee-Structure">
+        <div className="container">
+
+          <div className="row">
+            <div className="col">
+              <h1 className="section_title_text" style={{backgroundImage: 'url(images/background.png)'}}> Waterfall Fee Structure </h1>
+              
+
+              <p className="section_title_description css-ulgnwk-WaterFall">Drag the slider around based on what you think it will cost to repair the property. <br />
+                Move forward based on the estimated fee structure below.
+              </p>
+              <div className="partial_fee_btn">
+                    <i className="info_popup" data-toggle="popover" data-placement="top" data-content="Fee Structure Example: An estimate grand total of $100k will result in a fee of $7,360. The $750 deposit will be collected upon submission and applied toward the overarching fee."> i </i>
+                    <div id="partialFee">
+                        <label> 750% </label>
+                    </div>
+                    <span> mpartial Fee </span>
+                </div>
+
+                <p className="waterfall_info_text"> [$750 Minimum] </p>
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Fee Structure Section End */}
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
       
     </div>
   );
