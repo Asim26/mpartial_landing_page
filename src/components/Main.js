@@ -29,13 +29,14 @@ function Main() {
 
           </div>
 
+          <div>
+           <img src="/images/pre.jpg" alt="" width="100%" height="100%"/>
+          </div>
+
           <div className="try_now_btn">
-          <br/>
-          <br/>
             <button className="btn"> Try Today </button>
           </div>
 
-          
         </div>
       </section>
 
