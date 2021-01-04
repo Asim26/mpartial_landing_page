@@ -266,8 +266,11 @@ function Main() {
 
 
         <div className="row">
-          <div className="col">
-
+          <div className="col-lg-6">
+            <img src="/images/sketch1.png" width="100%" height="100%"></img>
+          </div>
+          <div className="col-lg-6">
+            <img src="/images/sketch1.png" width="100%" height="100%"></img>
           </div>
         </div>
 
